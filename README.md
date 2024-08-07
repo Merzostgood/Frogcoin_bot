@@ -1,1 +1,1 @@
-## First java mod
+## First my mod
