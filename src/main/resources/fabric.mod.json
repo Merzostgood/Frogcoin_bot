@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "frogcoin",
+  "version": "1.1-K4C",
+  "name": "Frogcoin",
+  "description": "Automatically get frogcoins",
+  "authors": [
+    "adamcowell14"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/frogcoin/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.adamcowell14.frogcoin.FrogcoinClient"
+    ],
+    "main": [
+      "net.adamcowell14.frogcoin.Frogcoin"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
